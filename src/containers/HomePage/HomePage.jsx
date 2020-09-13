@@ -1,11 +1,22 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
+import Particles from 'react-particles-js';
+import ParticlesParams from './particles.json'
 
-function HomePage(props) {
+function HomePage() {
+    const background = {
+        backgroundColor: "black"
+    }
+
+    const particlesParams = ParticlesParams
+
     return (
-        <div className="HomePage">
-            <h1> Home Page I guess </h1>
+        <div className="HomePage" style={background}>
+            <Particles
+                params={ particlesParams }>
+            </Particles>
         </div>
-  );
+    );
 }
 
 export default HomePage
