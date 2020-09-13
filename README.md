@@ -12,10 +12,7 @@ Back end - Firebase:
 
 1. install Nodejs
 2. install node package manager
-3. install material-ui: npm install @material-ui/core
-4. install react-router: npm install --save react-router-dom
-5. install firebase: npm install --save firebase
-6. (optional) install firebase cli: npm install -g firebase-tools
+3. (optional) install firebase cli: npm install -g firebase-tools
 
 ### Useful links
 
