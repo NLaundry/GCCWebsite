@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tech stack
+
+Front End - React
+UI framework - Material UI
+Back end - Firebase:
+    1. Firestore for database
+    2. Auth via firebase
+
+## Setting up your environment
+
+1. install Nodejs
+2. install node package manager
+3. install material-ui: npm install @material-ui/core
+4. install react-router: npm install --save react-router-dom
+5. install firebase: npm install --save firebase
+6. (optional) install firebase cli: npm install -g firebase-tools
+
+### Useful links
+
+https://firebase.google.com/docs/cli/#mac-linux-npm
+https://www.npmjs.com/package/firebase
+Project structure: https://daveceddia.com/react-project-structure/
+
 ## Available Scripts
 
 In the project directory, you can run:
