@@ -7,6 +7,8 @@ import {
 import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Events from "./Events";
+import { Link, animateScroll as scroll } from "react-scroll";
+import { MDBSmoothScroll } from "mdbreact";
 
 class Main extends Component {
   render() {
@@ -20,10 +22,10 @@ class Main extends Component {
                 <li><NavLink to="/events">Events</NavLink></li>
             </ul>
                 <div className="content">
-                    <Route exact path="/" component={Home}/>
-                    <Route path="/aboutus" component={AboutUs}/>
-                    <Route path="/events" component={Events}/>
-                    </div>
+                  <Route exact path="/" component={Home}/>
+                  <Route path="/aboutus" component={AboutUs}/>
+                  <Route path="/events" component={Events}/>
+                </div>
             </div>
         </HashRouter>
     );

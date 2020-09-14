@@ -9,11 +9,11 @@ class AboutUs extends Component {
         <ol>
           <li>Nathan Laundry - President</li>
           <li>Tinson Wang - Director of Sponsorships</li>
-          <li>Sooraj Moodi - Director of Something</li>
-          <li>Saqif IdkLastName - Treasurer</li>
-          <li>Zaza - Director of Outreach (i think?)</li>
-          <li>Isaac Wismer - Something I don't rmbr</li>
-          <li>Shawn - Something I don't rmbr</li>
+          <li>Sooraj Moodi - Director of Events</li>
+          <li>Saqif Abrar - Treasurer</li>
+          <li>Zaza Hashimi- Director of Advertising and Outreach</li>
+          <li>Isaac Wismer - Executive at Large</li>
+          <li>Shawn Kaplan - Executive at Large</li>
         </ol>
       </div>
     );
