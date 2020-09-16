@@ -2,18 +2,18 @@
     border-color: white;
     border-style: solid;
     border-radius: 5%;
-    padding: 10em;
+    padding: 10vh;
     /* z-index: 1000; */
 }
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   color: white;
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15vh solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .18em; /* Adjust as needed */
-  font-size: 4.5em; /* 40px/16=2.5em */
+  letter-spacing: .18vh; /* Adjust as needed */
+  font-size: 4.5vh; /* 40px/16=2.5em */
   animation: 
     typing 1s steps(5, end),
     blink-caret .75s step-end infinite;

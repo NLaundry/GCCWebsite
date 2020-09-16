@@ -4,7 +4,7 @@
     margin: 0 auto 0;
     justify-content: center;
     display: flex;
-    bottom: 8em;
+    bottom: 8vh;
 }
 
 .background {
@@ -20,8 +20,8 @@
 }
 
 .consoleDiv {
-    margin: 5em;
-    margin-top: 15em;
+    margin: 5vh;
+    margin-top: 15vh;
     display: flex;
     justify-content: center;
 }
